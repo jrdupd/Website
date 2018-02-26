@@ -1,2 +1,2 @@
 # Website
-html, java, css code refreshers
+Html, java, php, css code refreshers. Also contains Magento plugin for web content security.
