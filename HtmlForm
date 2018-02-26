@@ -1,0 +1,62 @@
+//This is an html form that shows selection values, and get user inpouts for submission.
+//Just replace values to suite your needs.
+<form>
+	<tr>	
+	<td>
+			<b>Cart TOTAL: <u><i size="100" style="background-color:white;" id="textbox5"></i></u></b><br/><br/><br/><br/>
+			<b>Customer Details:</b><br/><br/>
+			Contact Info:<br/>
+			<input type="text" name="firstname" placeholder="First Name">
+			<input type="text" name="lastname" placeholder="Last Name"><br/>
+			<input type="text" name="contact" placeholder="Contact #">
+			<input type="email" id="email" placeholder="xyz@abc.com"><br/>
+			Address:<br/>
+			<input type="text" name="address1" placeholder="Flr/Dept/Bldg/House#">
+			<input type="text" name="address2" placeholder="Street,Subd.,District"><br/>
+			<input type="text" name="address3" placeholder="City"><br/>
+			<SELECT NAME="Colleges">
+					<OPTION value="1" selected disabled>--Select University--</option>
+					<OPTION value="2" disabled>Quezon City</option>
+					<OPTION value="3" disabled>---------University of the Philippines Diliman---------</li></ul></option>
+					<OPTION value="4" >College of Arts and Letters</option>
+					<OPTION value="5" >College of Fine Arts</option>
+					<OPTION value="6" >College of Human Kinetics</option>
+					<OPTION value="7" >College of Mass Communications</option>
+					<OPTION value="8" >College of Music</option>
+					<OPTION value="9" >Asian Center</option>
+					<OPTION value="10" >College of Education</option>
+					<OPTION value="11" >Institute of Islamic Studies</option>
+					<OPTION value="12" >College of Law</option>
+					<OPTION value="13" >College of Social Work and Community Development</option>
+					<OPTION value="14" >College of Social Sciences and Philosophy</option>
+					<OPTION value="15" >Asian Institute of Tourism</option>
+					<OPTION value="16" >College of Business Administration</option>
+					<OPTION value="17" >School of Economics</option>
+					<OPTION value="18" >School of Labor and Industrial Relations</option>
+					<OPTION value="19" >School of Urban and Regional Planning</option>
+					<OPTION value="20" >National College of Public Administration & Governance</option>
+					<OPTION value="21" >College of Architecture</option>
+					<OPTION value="22" >College of Engineering</option>
+					<OPTION value="23" >College of Home Economics</option>
+					<OPTION value="24" >College of Science</option>
+					<OPTION value="25" >School of Statistical</option>
+					<OPTION value="26" >School of Library and Information Studies</option>
+					<OPTION value="27" >Archaeological Studies Program</option>
+
+			</SELECT><br/>
+			Remarks and Landmarks:<br/>
+			<textarea rows="4" cols="40">
+			</textarea>
+
+
+		<br/><br/>
+		<input type="checkbox" name="agree" value="agree">"I agree to the terms and conditions"<br/><br/>
+		<button type="submit" value="Submit">Submit</button>
+		<button type="reset" value="Reset">Reset Customer Details</button>
+		<br/>
+		
+		<br/>
+
+	</td>
+	</tr>
+</form>
