@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5.0">
+  <name>Stop Copy Module</name>
+  <function>Disables mouse highlight and right click functions</function>
+  <author>www.dstechcafe.com</author>
+  <creationDate>Jan 2010</creationDate>
+  <copyright>Copyright by www.dstechcafe.com</copyright>
+  <license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+  <authorEmail>dstechcafe@gmail.com</authorEmail>
+  <authorUrl>www.dstechcafe.com</authorUrl>
+  <version>1.1</version>
+  <creationDate>01 Jan 2010</creationDate>
+  <description>Instructions:<br/>1. Activate the module 2. Go to Module Manager, Disable Show Title 3. Set Position to "highest position possible for your theme".(Usually Banner1 or User1) Disclaimer: Disabling Right Click Fucntion is 100% smooth. However, disable highlight cursor works ok with IE. It may become buggy via simultaneuos cursor highlighting on Firefox resulting to function highlight stopper to fail</description>
+  <files>
+    <filename module="mod_stopcopy">mod_stopcopy.php</filename>
+	<filename>index.html</filename>
+	<filename>helper.php</filename>
+	<filename>tmpl/default.php</filename>
+	<filename>tmpl/index.html</filename>
+	<filename>disableSelect.js</filename>
+  </files>
+  <params>
+  </params>
+</install>
