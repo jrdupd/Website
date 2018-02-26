@@ -1,0 +1,32 @@
+			<SCRIPT LANGUAGE="javascript">
+				function foodpic() //name anything you want
+				{
+					var plist = new Array ("numericval1","numericval2",etc.); //neat trick for associating a selection to a certain image
+					var picLink = new Array ("urlsource1","urlsource2",etc.); //neat trick for associating a selection to a certain image
+					var selection = document.DropPix.Picture.selectedIndex; //drop down type selection
+					var dropselect = document.DropPix.Picture.options[selection].value; //selects the corresponding value for multiplication
+					var selection2= document.DropPix.qty.selectedIndex; //drop down type selection
+					var dropselect2 = document.DropPix.qty.options[selection2].value //selects the corresponding value for multiplication
+					document.pic.src = picLink[dropselect];	
+					document.getElementById("textbox").innerHTML = "Php " + plist[dropselect]; //displays selection
+					var prod = plist[dropselect]*dropselect2 //calculates the total price based from quantity and product price
+					document.getElementById("textbox2").innerHTML = "Php " + Math.round(prod*100)/100 ; //displays calculation result
+					
+					var selection3 = document.DropPix2.Picture2.selectedIndex;
+					var dropselect3 = document.DropPix2.Picture2.options[selection3].value;
+					document.pic2.src = picLink[dropselect3];	
+					document.getElementById("textbox3").innerHTML = "Php " + plist[dropselect3];
+					var selection4= document.DropPix2.qty2.selectedIndex;
+					var dropselect4 = document.DropPix2.qty2.options[selection4].value					
+					var prod2 = plist[dropselect3]*dropselect4
+					document.getElementById("textbox4").innerHTML = "Php " + Math.round(prod2*100)/100 ;
+					
+					var sum = prod + prod2
+					document.getElementById("textbox5").innerHTML = "Php " + Math.round(sum*100)/100;
+				}
+				
+				function trigger(){ //function to call the calculation anywhere on the html code
+				foodpic(); 
+				}
+		
+			</SCRIPT>
